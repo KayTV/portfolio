@@ -1,0 +1,119 @@
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100%, 100%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "arial";
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-family: "arial";
+  color: white;
+}
+
+#stay {
+    position: fixed;
+    /*overflow: auto;*/
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    border: 1px solid #555;
+    height: 500px;
+    background-color: #b3d8ff;
+    position: fixed;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    border: 1px solid #555;
+    text-decoration: none;
+    font-family: "arial";
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #0071e6;
+    color: white;
+}
+
+#p1 {
+  /*#b3d8ff*/
+  background-color: rgba(180, 220, 255, 0.5);
+  height: 500px;
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  overflow: auto;
+}
+
+#bottom {
+    position: fixed;
+    overflow: auto;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    margin-left: 70%;
+    margin-bottom: 20px;
+}
+
+/*About me page*/
+
+h3 {
+  font-size: 40px;
+}
+
+.smaller_img {
+  height: 460px;
+  width: 315px;
+  border-radius: 25px;
+}
+
+.table_img {
+  height: 200px;
+  width: 200px;
+}
+
+/*table, td {
+	border: 1px #70b8ff dashed;
+}*/
+
+td {
+  width: 220px;
+}
+
+th {
+    text-align: center;
+    font-family: "arial";
+    font-size: 30px;
+}
+
+h4 {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #b3d8ff;
+  width: 200px;
+  text-align: center;
+  margin-left: 37%;
+}
+h5 {
+  font-size: 25px;
+}
